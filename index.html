@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechKart - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">🛍️ TechKart</div>
+    
+  
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search products...">
+  <button class="search-btn" aria-label="Search">🔍</button>
+</div>
+
+
+
+    <nav class="navLinks">
+      <a href="index.html" class="navLink">Home</a>
+      <a href="login.html" class="navLink">Login</a>
+      <a href="signup.html" class="navLink">Signup</a>
+    </nav>
+
+    <div id="cartIcon">🛒<span id="cartCount">0</span></div>
+  </header>
+
+  <section class="hero">
+    <img src="https://images.pexels.com/photos/4391478/pexels-photo-4391478.jpeg" alt="banner">
+    <div class="hero-text">
+      <h2>Big Sale on Tech Gear!</h2>
+      <p>Up to 50% off on select items</p>
+    </div>
+  </section>
+
+  <section class="products" id="productList"></section>
+
+  <div class="modal" id="cartModal">
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+    <button onclick="closeCart()">Close</button>
+  </div>
+   <script src="script.js"></script>
+ 
+
+  
+
+  <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-section">
+      <h3>About TechKart</h3>
+      <p>TechKart is India's leading e-commerce platform for electronics and accessories. We offer the best deals on top tech brands with fast delivery and easy returns.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Customer Service</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Track Order</a></li>
+        <li><a href="#">Returns & Refunds</a></li>
+        <li><a href="#">Shipping Info</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Policies</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Cancellation Policy</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p>Email: support@techkart.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 TechKart. All rights reserved. | Designed by Shubham Raj</p>
+  </div>
+</footer>
